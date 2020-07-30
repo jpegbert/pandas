@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2920c44-9850-4473-b832-301fec790239" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pandas$pandas_shujuchakan.coverage" NAME="pandas_shujuchakan Coverage Results" MODIFIED="1577078527047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_import_data.coverage" NAME="pandas_import_data Coverage Results" MODIFIED="1576238432662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$add_avg_col.coverage" NAME="add_avg_col Coverage Results" MODIFIED="1573193082207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_groupby_agg" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_export_data.coverage" NAME="pandas_export_data Coverage Results" MODIFIED="1576473540355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_genjuyiliedezhixiugailingyiliedezhi.coverage" NAME="pandas_genjuyiliedezhixiugailingyiliedezhi Coverage Results" MODIFIED="1581514048365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_genjuyiliedezhixiugailingyiliedezhi" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_hebing.coverage" NAME="pandas_hebing Coverage Results" MODIFIED="1580992249189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_hebing" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_concat.coverage" NAME="pandas_concat Coverage Results" MODIFIED="1577103695522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_xuanzeyilieshimouzhidelingyiliedezhi.coverage" NAME="pandas_xuanzeyilieshimouzhidelingyiliedezhi Coverage Results" MODIFIED="1576728221751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_xuanzeyilieshimouzhidelingyiliedezhi" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_ont_hot.coverage" NAME="pandas_ont_hot Coverage Results" MODIFIED="1572316000225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_ont_hot" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_statistics.coverage" NAME="pandas_statistics Coverage Results" MODIFIED="1576761065716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1576830160048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_columns.coverage" NAME="pandas_columns Coverage Results" MODIFIED="1577542721599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_dict_to_frame.coverage" NAME="pandas_dict_to_frame Coverage Results" MODIFIED="1573443121714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_dict_to_frame" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_fenxiang.coverage" NAME="pandas_fenxiang Coverage Results" MODIFIED="1573554361572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_fenxiang" />
+    <SUITE FILE_PATH="coverage/pandas$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1581512739710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_join.coverage" NAME="pandas_join Coverage Results" MODIFIED="1580992327960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_join" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_xiugaiyiliedezhi_genjulingyiliedezhi.coverage" NAME="pandas_xiugaiyiliedezhi_genjulingyiliedezhi Coverage Results" MODIFIED="1578315239172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_count.coverage" NAME="pandas_count Coverage Results" MODIFIED="1579093829398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_append.coverage" NAME="pandas_append Coverage Results" MODIFIED="1576924921843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_xiugaiyilie_by_columns_val.coverage" NAME="pandas_xiugaiyilie_by_columns_val Coverage Results" MODIFIED="1574665034013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_xiugaiyilie_by_columns_val" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_date_str_to_year_month_day.coverage" NAME="pandas_date_str_to_year_month_day Coverage Results" MODIFIED="1577708862072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_apply.coverage" NAME="pandas_apply Coverage Results" MODIFIED="1596093774665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_apply" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_xianshibuquan.coverage" NAME="pandas_xianshibuquan Coverage Results" MODIFIED="1577190238670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_merge__1_.coverage" NAME="pandas_merge (1) Coverage Results" MODIFIED="1576845433317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_join__1_.coverage" NAME="pandas_join (1) Coverage Results" MODIFIED="1576846167505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_join" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_fenpidurushuju.coverage" NAME="pandas_fenpidurushuju Coverage Results" MODIFIED="1581581783173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_fenpidurushuju" />
+    <SUITE FILE_PATH="coverage/pandas$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582811153220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_xiangxingtu.coverage" NAME="pandas_xiangxingtu Coverage Results" MODIFIED="1573452485833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_xiangxingtu" />
+    <SUITE FILE_PATH="coverage/pandas$my_test.coverage" NAME="my_test Coverage Results" MODIFIED="1572352094357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_arr_df_.coverage" NAME="pandas_arr_df_ Coverage Results" MODIFIED="1572256892544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_arr_df_" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_rumen.coverage" NAME="pandas_rumen Coverage Results" MODIFIED="1575548067698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_rumen" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_guiyihua.coverage" NAME="pandas_guiyihua Coverage Results" MODIFIED="1571897343082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_guiyihua" />
+    <SUITE FILE_PATH="coverage/pandas$drop_duplicates.coverage" NAME="drop_duplicates Coverage Results" MODIFIED="1596093682177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_drop_duplicates" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_na.coverage" NAME="pandas_na Coverage Results" MODIFIED="1573466588348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_na" />
+    <SUITE FILE_PATH="coverage/pandas$modify_index_columns.coverage" NAME="modify_index_columns Coverage Results" MODIFIED="1578574573772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modify_index_columns" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_groupby_agg.coverage" NAME="pandas_groupby_agg Coverage Results" MODIFIED="1582602604211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_groupby_agg" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_value_count.coverage" NAME="pandas_value_count Coverage Results" MODIFIED="1578402625516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_leibie_bianma.coverage" NAME="pandas_leibie_bianma Coverage Results" MODIFIED="1579256512974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_leibie_bianma" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_data_select.coverage" NAME="pandas_data_select Coverage Results" MODIFIED="1581564003771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1581513268680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_chuangjian_dataframe.coverage" NAME="pandas_chuangjian_dataframe Coverage Results" MODIFIED="1576232535079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_chuangjian_dataframe" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_ont_hot1.coverage" NAME="pandas_ont_hot1 Coverage Results" MODIFIED="1582601211056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_ont_hot" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_merge.coverage" NAME="pandas_merge Coverage Results" MODIFIED="1576571331105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_merge" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_log_exp.coverage" NAME="pandas_log_exp Coverage Results" MODIFIED="1577881370544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$predict_by_using_model_city_23_1.coverage" NAME="predict_by_using_model_city_23_1 Coverage Results" MODIFIED="1578314141620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_columns_value_count_and_value_replace" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/train_city_23.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>多列分组后对数据进行聚合</find>
+      <find>session</find>
+      <find>run</find>
+      <find>np.asarray(subfeed_val, dtype=subfeed_dtype)</find>
+      <find>model_inputs</find>
+      <find>learning_phase_flags</find>
+      <find>model</find>
+      <find>data</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pandas_jibenshiyongfangfa/pandas_jibenshiyongfangfa.py" />
+        <option value="$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py" />
+        <option value="$PROJECT_DIR$/pandas_drop_duplicates/drop_duplicates.py" />
+        <option value="$PROJECT_DIR$/pandas_dict_to_frame/pandas_dict_to_frame.py" />
+        <option value="$PROJECT_DIR$/pandas_xiangxingtu/pandas_xiangxingtu.py" />
+        <option value="$PROJECT_DIR$/pandas_fenxiang/pandas_fenxiang.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/pandas_xiugaiyilie_by_columns_val/pandas_xiugaiyilie_by_columns_val.py" />
+        <option value="$PROJECT_DIR$/pandas_append/pandas_append.py" />
+        <option value="$PROJECT_DIR$/pandas_apply/pandas_apply.py" />
+        <option value="$PROJECT_DIR$/pandas_rumen/pandas_rumen.py" />
+        <option value="$PROJECT_DIR$/pandas_chuangjian_dataframe/pandas_chuangjian_dataframe.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/1.txt" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_chuangjian_dataframe.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_import_data.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_export_data.py" />
+        <option value="$PROJECT_DIR$/pandas_merge/pandas_merge.py" />
+        <option value="$PROJECT_DIR$/pandas_columns_value_count_and_value_replace/predict_by_using_model_city_23_1.py" />
+        <option value="$PROJECT_DIR$/pandas_xuanzeyilieshimouzhidelingyiliedezhi/pandas_xuanzeyilieshimouzhidelingyiliedezhi.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_statistics.py" />
+        <option value="$PROJECT_DIR$/test/test1.py" />
+        <option value="$PROJECT_DIR$/pandas_concat/pandas_concat.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_merge.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_append.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_shujuchakan.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_concat.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_xianshibuquan.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_join.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_columns.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_date_str_to_year_month_day.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_log_exp.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_xiugaiyiliedezhi_genjulingyiliedezhi.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_value_count.py" />
+        <option value="$PROJECT_DIR$/modify_index_columns/modify_index_columns.py" />
+        <option value="$PROJECT_DIR$/pandas_count/pandas_count.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_count.py" />
+        <option value="$PROJECT_DIR$/pandas_leibie_bianma/pandas_leibie_bianma.py" />
+        <option value="$PROJECT_DIR$/pandas_hebing/pandas_hebing.py" />
+        <option value="$PROJECT_DIR$/pandas_join/pandas_join.py" />
+        <option value="$PROJECT_DIR$/pandas_na/pandas_na.py" />
+        <option value="$PROJECT_DIR$/test/test4.py" />
+        <option value="$PROJECT_DIR$/pandas_genjuyiliedezhixiugailingyiliedezhi/pandas_genjuyiliedezhixiugailingyiliedezhi.py" />
+        <option value="$PROJECT_DIR$/test/test3.py" />
+        <option value="$PROJECT_DIR$/pandas_zhengli/pandas_data_select.py" />
+        <option value="$PROJECT_DIR$/pandas_fenpidurushuju/pandas_fenpidurushuju.py" />
+        <option value="$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py" />
+        <option value="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" />
+        <option value="$PROJECT_DIR$/test/test2.py" />
+        <option value="$PROJECT_DIR$/test/config.yml" />
+        <option value="$PROJECT_DIR$/data/train_city_23.csv" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-115" />
+    <option name="y" value="24" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="modify_index_columns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_append" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_apply" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_arr_df_" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_columns_value_count_and_value_replace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_concat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_count" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_dict_to_frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_drop_duplicates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_fenpidurushuju" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_fenxiang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_genjuyiliedezhixiugailingyiliedezhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_groupby_agg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_guiyihua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_hebing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_jibenshiyongfangfa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_join" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\personalize\code\python\pandas\pandas_zhengli" />
+      <recent name="E:\personalize\code\python\pandas\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pandas_apply">
+    <configuration name="drop_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_drop_duplicates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_drop_duplicates/drop_duplicates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandas_apply" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_apply" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_apply/pandas_apply.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandas_groupby_agg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_groupby_agg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandas_ont_hot1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_ont_hot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pandas_apply" />
+        <item itemvalue="Python.drop_duplicates" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.pandas_groupby_agg" />
+        <item itemvalue="Python.pandas_ont_hot1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2920c44-9850-4473-b832-301fec790239" name="Default Changelist" comment="" />
+      <created>1570708670773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570708670773</updated>
+      <workItem from="1570708672484" duration="1943000" />
+      <workItem from="1570762974199" duration="6143000" />
+      <workItem from="1570853824950" duration="5952000" />
+      <workItem from="1571141761655" duration="4568000" />
+      <workItem from="1571398006366" duration="2871000" />
+      <workItem from="1571644592509" duration="7054000" />
+      <workItem from="1571711131878" duration="8365000" />
+      <workItem from="1571883865425" duration="12702000" />
+      <workItem from="1571987538970" duration="8358000" />
+      <workItem from="1572230699308" duration="8500000" />
+      <workItem from="1572315691095" duration="20131000" />
+      <workItem from="1572495704518" duration="5323000" />
+      <workItem from="1572588408850" duration="3862000" />
+      <workItem from="1572946197853" duration="1569000" />
+      <workItem from="1573110184498" duration="9562000" />
+      <workItem from="1573182021565" duration="10087000" />
+      <workItem from="1573443030672" duration="6018000" />
+      <workItem from="1573524507739" duration="10826000" />
+      <workItem from="1574661809825" duration="5228000" />
+      <workItem from="1574749377564" duration="2945000" />
+      <workItem from="1574922673327" duration="9107000" />
+      <workItem from="1575272112170" duration="3530000" />
+      <workItem from="1575440708135" duration="4247000" />
+      <workItem from="1575514546436" duration="4605000" />
+      <workItem from="1575768888122" duration="1234000" />
+      <workItem from="1576226920467" duration="9424000" />
+      <workItem from="1576334180405" duration="757000" />
+      <workItem from="1576470145750" duration="4469000" />
+      <workItem from="1576556737322" duration="6770000" />
+      <workItem from="1576636657943" duration="7933000" />
+      <workItem from="1576723858203" duration="10147000" />
+      <workItem from="1576810723341" duration="21554000" />
+      <workItem from="1576923597710" duration="1967000" />
+      <workItem from="1577077363817" duration="6694000" />
+      <workItem from="1577181590711" duration="6734000" />
+      <workItem from="1577255439907" duration="5219000" />
+      <workItem from="1577540353420" duration="2874000" />
+      <workItem from="1577689597531" duration="2737000" />
+      <workItem from="1577880221800" duration="1762000" />
+      <workItem from="1578019575507" duration="3204000" />
+      <workItem from="1578314030784" duration="1955000" />
+      <workItem from="1578401850282" duration="1743000" />
+      <workItem from="1578573600964" duration="2293000" />
+      <workItem from="1578973636560" duration="2727000" />
+      <workItem from="1579090097646" duration="3656000" />
+      <workItem from="1579250869571" duration="5796000" />
+      <workItem from="1580987568238" duration="3750000" />
+      <workItem from="1581058758584" duration="2194000" />
+      <workItem from="1581398598809" duration="921000" />
+      <workItem from="1581512386911" duration="2672000" />
+      <workItem from="1581556091441" duration="9249000" />
+      <workItem from="1581688179531" duration="1181000" />
+      <workItem from="1582553453758" duration="1152000" />
+      <workItem from="1582596785441" duration="5004000" />
+      <workItem from="1582675002323" duration="3465000" />
+      <workItem from="1582699848057" duration="1293000" />
+      <workItem from="1582772970738" duration="2602000" />
+      <workItem from="1582891536236" duration="901000" />
+      <workItem from="1583045771524" duration="1040000" />
+      <workItem from="1583417221684" duration="656000" />
+      <workItem from="1596093102942" duration="39000" />
+      <workItem from="1596093643385" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311385000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.1767594" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20441459" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49918166" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.7053088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3878887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5005417" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.7053088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pandas_merge/pandas_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ruanjian/Anaconda3-5.3.1/anzhuangwenjian/Lib/site-packages/pandas/core/reshape/concat.py" />
+    <entry file="file://$PROJECT_DIR$/pandas_concat/pandas_concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_chuangjian_dataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_join.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_shujuchakan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_xianshibuquan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_xiugaiyiliedezhi_genjulingyiliedezhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_date_str_to_year_month_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_log_exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_value_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ruanjian/Anaconda3-5.3.1/anzhuangwenjian/Lib/site-packages/pandas/io/parsers.py" />
+    <entry file="file://$PROJECT_DIR$/pandas_append/pandas_append.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_apply/pandas_apply.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_arr_df_/pandas_arr_df_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_join/pandas_join.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_na/pandas_na.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_count/pandas_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modify_index_columns/modify_index_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#120#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_append.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modify_index_columns/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_data_select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_columns_value_count_and_value_replace/predict_by_using_model_city_23_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_fenpidurushuju/pandas_fenpidurushuju.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_fenxiang/pandas_fenxiang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_guiyihua/pandas_guiyihua.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_hebing/pandas_hebing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_jibenshiyongfangfa/pandas_jibenshiyongfangfa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_leibie_bianma/pandas_leibie_bianma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/config.yml" />
+    <entry file="file://E:/ruanjian/Anaconda3-5.3.1/anzhuangwenjian/Lib/site-packages/pandas/core/frame.py" />
+    <entry file="file://$PROJECT_DIR$/pandas_genjuyiliedezhixiugailingyiliedezhi/pandas_genjuyiliedezhixiugailingyiliedezhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#60#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_export_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_drop_duplicates/drop_duplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train_city_23.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
