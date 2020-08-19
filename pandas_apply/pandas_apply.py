@@ -33,6 +33,7 @@ def evaluation(data):
     else:
         return 0
 
+
 print(df)
 df["score"] = df.apply(evaluation, axis=1)
 print(df)

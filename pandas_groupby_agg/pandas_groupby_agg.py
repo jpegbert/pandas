@@ -24,12 +24,12 @@ for (index1, index2), data in df_gb:
     print(data)
 
 print("=======对分组后数据进行聚合========")
-df_agg = df.groupby('Country').agg(['min', 'mean', 'max'])
+df_agg = df.groupby('Country').agg(['min', 'mean', 'max', 'sum'])
 print(df_agg)
 
 print("=======对分组后的部分列进行聚合========")
-num_agg = {'Age': ['min', 'mean', 'max']}
-# num_agg = {'Age': 'mean'} # 这种写法，agg之后不会出现聚合的lie有两个索引的情况
+# num_agg = {'Age': ['min', 'mean', 'max', 'sum']}
+num_agg = {'Age': 'mean', 'Age': 'sum', 'Income': 'sum'} # 这种写法，agg之后不会出现聚合的lie有两个索引的情况
 # 参数as_index表示是否以分组的列作为as_index=False索引, 默认是分组的列作为索引的
 print(df)
 print("*" * 20)

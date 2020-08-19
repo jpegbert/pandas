@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2920c44-9850-4473-b832-301fec790239" name="Default Changelist" comment="" />
+    <list default="true" id="e2920c44-9850-4473-b832-301fec790239" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_apply/pandas_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_apply/pandas_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pandas$pandas_shujuchakan.coverage" NAME="pandas_shujuchakan Coverage Results" MODIFIED="1577078527047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
     <SUITE FILE_PATH="coverage/pandas$pandas_import_data.coverage" NAME="pandas_import_data Coverage Results" MODIFIED="1576238432662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_filter.coverage" NAME="pandas_filter Coverage Results" MODIFIED="1597830950271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_filter" />
     <SUITE FILE_PATH="coverage/pandas$add_avg_col.coverage" NAME="add_avg_col Coverage Results" MODIFIED="1573193082207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_groupby_agg" />
     <SUITE FILE_PATH="coverage/pandas$pandas_export_data.coverage" NAME="pandas_export_data Coverage Results" MODIFIED="1576473540355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
     <SUITE FILE_PATH="coverage/pandas$pandas_genjuyiliedezhixiugailingyiliedezhi.coverage" NAME="pandas_genjuyiliedezhixiugailingyiliedezhi Coverage Results" MODIFIED="1581514048365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_genjuyiliedezhixiugailingyiliedezhi" />
@@ -44,7 +49,7 @@
     <SUITE FILE_PATH="coverage/pandas$drop_duplicates.coverage" NAME="drop_duplicates Coverage Results" MODIFIED="1596093682177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_drop_duplicates" />
     <SUITE FILE_PATH="coverage/pandas$pandas_na.coverage" NAME="pandas_na Coverage Results" MODIFIED="1573466588348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_na" />
     <SUITE FILE_PATH="coverage/pandas$modify_index_columns.coverage" NAME="modify_index_columns Coverage Results" MODIFIED="1578574573772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modify_index_columns" />
-    <SUITE FILE_PATH="coverage/pandas$pandas_groupby_agg.coverage" NAME="pandas_groupby_agg Coverage Results" MODIFIED="1582602604211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_groupby_agg" />
+    <SUITE FILE_PATH="coverage/pandas$pandas_groupby_agg.coverage" NAME="pandas_groupby_agg Coverage Results" MODIFIED="1597826180878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_groupby_agg" />
     <SUITE FILE_PATH="coverage/pandas$pandas_value_count.coverage" NAME="pandas_value_count Coverage Results" MODIFIED="1578402625516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
     <SUITE FILE_PATH="coverage/pandas$pandas_leibie_bianma.coverage" NAME="pandas_leibie_bianma Coverage Results" MODIFIED="1579256512974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_leibie_bianma" />
     <SUITE FILE_PATH="coverage/pandas$pandas_data_select.coverage" NAME="pandas_data_select Coverage Results" MODIFIED="1581564003771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_zhengli" />
@@ -66,11 +71,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pandas_apply/pandas_apply.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="399">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pandas_filter/pandas_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -78,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pandas_leibie_bianma/pandas_leibie_bianma.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="918">
               <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
@@ -111,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pandas_jibenshiyongfangfa/pandas_jibenshiyongfangfa.py" />
         <option value="$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py" />
         <option value="$PROJECT_DIR$/pandas_drop_duplicates/drop_duplicates.py" />
         <option value="$PROJECT_DIR$/pandas_dict_to_frame/pandas_dict_to_frame.py" />
@@ -120,7 +151,6 @@
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/pandas_xiugaiyilie_by_columns_val/pandas_xiugaiyilie_by_columns_val.py" />
         <option value="$PROJECT_DIR$/pandas_append/pandas_append.py" />
-        <option value="$PROJECT_DIR$/pandas_apply/pandas_apply.py" />
         <option value="$PROJECT_DIR$/pandas_rumen/pandas_rumen.py" />
         <option value="$PROJECT_DIR$/pandas_chuangjian_dataframe/pandas_chuangjian_dataframe.py" />
         <option value="$PROJECT_DIR$/pandas_zhengli/1.txt" />
@@ -158,18 +188,20 @@
         <option value="$PROJECT_DIR$/pandas_zhengli/pandas_data_select.py" />
         <option value="$PROJECT_DIR$/pandas_fenpidurushuju/pandas_fenpidurushuju.py" />
         <option value="$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py" />
-        <option value="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" />
         <option value="$PROJECT_DIR$/test/test2.py" />
         <option value="$PROJECT_DIR$/test/config.yml" />
         <option value="$PROJECT_DIR$/data/train_city_23.csv" />
+        <option value="$PROJECT_DIR$/pandas_apply/pandas_apply.py" />
+        <option value="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" />
+        <option value="$PROJECT_DIR$/pandas_filter/pandas_filter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-115" />
-    <option name="y" value="24" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -183,6 +215,26 @@
             <path>
               <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
               <item name="pandas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_groupby_agg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_guiyihua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas_jibenshiyongfangfa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas_apply">
+  <component name="RunManager" selected="Python.pandas_filter">
     <configuration name="drop_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pandas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,6 +312,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pandas_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_filter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_filter/pandas_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pandas_groupby_agg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pandas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,28 +348,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pandas_ont_hot1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pandas" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_ont_hot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,11 +380,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pandas_filter" />
+        <item itemvalue="Python.pandas_groupby_agg" />
         <item itemvalue="Python.pandas_apply" />
         <item itemvalue="Python.drop_duplicates" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.pandas_groupby_agg" />
-        <item itemvalue="Python.pandas_ont_hot1" />
       </list>
     </recent_temporary>
   </component>
@@ -407,22 +459,24 @@
       <workItem from="1583045771524" duration="1040000" />
       <workItem from="1583417221684" duration="656000" />
       <workItem from="1596093102942" duration="39000" />
-      <workItem from="1596093643385" duration="471000" />
+      <workItem from="1596093643385" duration="3519000" />
+      <workItem from="1597825274699" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311735000" />
+    <option name="totallyTimeSpent" value="317347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.1767594" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20441459" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49918166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,13 +521,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandas_zhengli/pandas_chuangjian_dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -615,9 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.csv" />
     <entry file="file://$PROJECT_DIR$/modify_index_columns/modify_index_columns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -669,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandas_guiyihua/pandas_guiyihua.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -697,16 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/log.txt" />
     <entry file="file://$PROJECT_DIR$/pandas_ont_hot/pandas_ont_hot1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -743,6 +772,18 @@
     <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_xiangxingtu/p2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/my_test.py" />
+    <entry file="file://$PROJECT_DIR$/test/test.py" />
+    <entry file="file://$PROJECT_DIR$/test/test1.py" />
+    <entry file="file://$PROJECT_DIR$/test/test2.py" />
+    <entry file="file://$PROJECT_DIR$/test/test3.py" />
+    <entry file="file://$PROJECT_DIR$/test/test4.py" />
+    <entry file="file://$PROJECT_DIR$/pandas_zhengli/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/train_city_23.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -750,79 +791,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_xiangxingtu/p2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandas_leibie_bianma/pandas_leibie_bianma.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
+        <state relative-caret-position="918">
           <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/my_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#60#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_zhengli/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandas_apply/pandas_apply.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="399">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/add_avg_col.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_groupby_agg/pandas_groupby_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_filter/pandas_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
