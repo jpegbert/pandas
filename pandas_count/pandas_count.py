@@ -82,9 +82,9 @@ def groupby_describe():
 def main():
     # count() # 统计个数
     # count_nunique() # 统计不重复值个数nunique
-    # count_unique() # 筛选不重复值
+    count_unique() # 筛选不重复值
     # count_freq() # 统计某一个值的频数
-    groupby_count() # 分组统计
+    # groupby_count() # 分组统计
     # groupby_count_distinct_col1()  # 分组统计
     # groupby_count_other() # x.groupby(by=["x1",'x2']).mean()
     # groupby_describe() # 整体的描述统计
