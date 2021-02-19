@@ -27,7 +27,7 @@ g    16    25    16    22
 df[["r_average"]] = df[["col4"]].rank(axis=0, method="average")
 df[["r_min"]] = df[["col4"]].rank(axis=0, method="min")
 df[["r_max"]] = df[["col4"]].rank(axis=0, method="max")
-df[["r_first"]] = df[["col4"]].rank(axis=0, method="first")
+df[["r_first"]] = df[["col4"]].rank(axis=0, method="first", ascending=False)
 df[["r_dense"]] = df[["col4"]].rank(axis=0, method="dense")
 print(df)
 """
