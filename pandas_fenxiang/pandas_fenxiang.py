@@ -16,7 +16,7 @@ print("=====")
 
 
 # labels参数为False时，返回结果中用不同的整数作为箱子的指示符
-cats2 = pd.cut(ages, bins,labels=False)
+cats2 = pd.cut(ages, bins, labels=False)
 print(cats2)
 
 print(pd.value_counts(cats1))   # 对不同箱子中的数进行计数
@@ -31,7 +31,7 @@ group_names = ['Youth', 'YoungAdult', 'MiddleAged', 'Senior']
 cuts4 = pd.cut(ages, bins, labels=group_names)
 print(cuts4)
 
-qcats1 = pd.qcut(ages,q=4) # , labels=False返回箱子编号 # 参数q指定所分箱子的数量
+qcats1 = pd.qcut(ages, q=4, labels=group_names) # , labels=False返回箱子编号 # 参数q指定所分箱子的数量
 print("=====")
 print(qcats1)
 print(qcats1.value_counts())  # 从输出结果可以看到每个箱子中的数据量是相同的
